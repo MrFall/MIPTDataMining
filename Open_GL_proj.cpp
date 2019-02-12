@@ -82,7 +82,7 @@ int main(int argc, char *argv[]) {
   glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
   glutInitWindowPosition(100, 100);
   glutInitWindowSize(600, 600);
-  glutCreateWindow("Пример вывода 3D графики");
+  glutCreateWindow("ГЏГ°ГЁГ¬ГҐГ° ГўГ»ГўГ®Г¤Г  3D ГЈГ°Г ГґГЁГЄГЁ");
   glEnable(GL_DEPTH_TEST);
   glClearColor(0.5, 0.5, 0.5, 1);
 
