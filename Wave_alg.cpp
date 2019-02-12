@@ -41,19 +41,19 @@ int main() {
 	int x_A, y_A, x_B, y_B;
 	bool flag = 1;
 	while (flag) {
-		cout << "Ââåäèòå êîîðäèíàòû À:" << endl;
+		cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã®Ã°Ã¤Ã¨Ã­Ã Ã²Ã» Ã€:" << endl;
 		cin >> x_A >> y_A;
 		if ((x_A < 1 || x_A > x - 2) || (y_A < 1 || y_A > y - 2))
-			cout << "Âûõîä çà ïðåäåëû ìàññèâà!" << endl;
+			cout << "Ã‚Ã»ÃµÃ®Ã¤ Ã§Ã  Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã» Ã¬Ã Ã±Ã±Ã¨Ã¢Ã !" << endl;
 		else
 			flag = false;
 	}
 	flag = true;
 	while (flag) {
-		cout << "Ââåäèòå êîîðäèíàòû B:" << endl;
+		cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã®Ã°Ã¤Ã¨Ã­Ã Ã²Ã» B:" << endl;
 		cin >> x_B >> y_B;
 		if ((x_B < 1 || x_B > x - 2) || (y_B < 1 || y_B > y - 2))
-			cout << "Âûõîä çà ïðåäåëû ìàññèâà!" << endl;
+			cout << "Ã‚Ã»ÃµÃ®Ã¤ Ã§Ã  Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã» Ã¬Ã Ã±Ã±Ã¨Ã¢Ã !" << endl;
 		else
 			flag = false;
 	}
